@@ -1,0 +1,42 @@
+/sandbox-engine/
+│
+├── index.html
+├── style.css
+├── README.md
+│
+└── /src/
+    ├── main.js
+    ├── config.js
+    │
+    ├── engine/
+    │   ├── game.js
+    │   ├── input.js
+    │   ├── camera.js
+    │   └── renderer.js
+    │
+    ├── world/
+    │   ├── worldManager.js
+    │   ├── worldGen.js
+    │   ├── tile.js
+    │   ├── lighting.js
+    │   └── biomes.js
+    │
+    ├── player/
+    │   ├── player.js
+    │   ├── inventory.js
+    │   └── stats.js
+    │
+    ├── entities/
+    │   ├── enemy.js
+    │   ├── entityManager.js
+    │   └── boss.js
+    │
+    ├── crafting/
+    │   ├── recipes.js
+    │   └── craftingSystem.js
+    │
+    ├── systems/
+    │   ├── saveSystem.js
+    │   ├── worldSlots.js
+    │   ├── dayNight.js
+    │   └── ui.js
